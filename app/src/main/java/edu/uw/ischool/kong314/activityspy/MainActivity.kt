@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
 
         Log.i(tag, "onDestroy event fired")
-        Log.e(tag, "I'm the king of the world. - Titanic (1997)")
+        Log.e(tag, "\"I'm the king of the world.\" - Jack, Titanic (1997)")
     }
 
     override fun onPause() {
